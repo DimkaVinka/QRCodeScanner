@@ -14,6 +14,7 @@
 		7DCEA542283F4D4B00E4F764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DCEA540283F4D4B00E4F764 /* LaunchScreen.storyboard */; };
 		7DCEA54F283F4E3500E4F764 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCEA54E283F4E3500E4F764 /* CameraService.swift */; };
 		7DCEA551283F4F7200E4F764 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCEA550283F4F7200E4F764 /* Presenter.swift */; };
+		7DCEA553283F4FEC00E4F764 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCEA552283F4FEC00E4F764 /* ModuleBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7DCEA543283F4D4B00E4F764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DCEA54E283F4E3500E4F764 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
 		7DCEA550283F4F7200E4F764 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		7DCEA552283F4FEC00E4F764 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		7DCEA54B283F4D9500E4F764 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
+				7DCEA552283F4FEC00E4F764 /* ModuleBuilder.swift */,
 			);
 			path = Assembly;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				7DCEA536283F4D4900E4F764 /* AppDelegate.swift in Sources */,
 				7DCEA538283F4D4900E4F764 /* SceneDelegate.swift in Sources */,
 				7DCEA551283F4F7200E4F764 /* Presenter.swift in Sources */,
+				7DCEA553283F4FEC00E4F764 /* ModuleBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
